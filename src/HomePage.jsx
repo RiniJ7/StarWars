@@ -19,7 +19,8 @@ const HomePage = () => {
       console.error("Error fetching data:", error);
     }
   };
-
+//if getPeople() is called without useEffect, the rendering will happen infinite number of times 
+//By using useEffect with an empty dependency array, you ensure that the data fetching is only done once after the initial render.
   useEffect(() => {
     getPeople();
   }, []);
