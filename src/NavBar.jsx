@@ -1,17 +1,27 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <>
-    <div>Super Hero List</div>
-    <ul>
-  <li><a href="default.asp">People</a></li>
-  <li><a href="news.asp">Films</a></li>
-  <li><a href="contact.asp">Planets</a></li>
-  <li><a href="about.asp">Species</a></li>
-  <li><a href="contact.asp">Starships</a></li>
-  <li><a href="about.asp">Vehicles</a></li>
-</ul>
+ 
+
+<div class="w3-bar w3-red">
+ <div class="w3-bar-item w3-button">Super Hero List</div>
+  <a href="#" class="w3-bar-item w3-button">Home-People</a>
+  <a href="#" class="w3-bar-item w3-button">Films</a>
+  <a href="#" class="w3-bar-item w3-button">Planets</a>
+  <a href="#" class="w3-bar-item w3-button">Species</a>
+  <a href="#" class="w3-bar-item w3-button">Starships</a>
+  <a href="#" class="w3-bar-item w3-button">Vehicles</a>
+</div>
+{/* <div className='header-box'>
+            <div className='left-buttons'>
+                <Link to="/"><button className='all-cards-button' >All Cards</button></Link>
+            </div>
+            
+        
+        </div> */}
 </>
   )
 }
