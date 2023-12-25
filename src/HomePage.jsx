@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import Container from "./Container";
+import HomeContainer from "./HomeContainer";
 
 const HomePage = () => {
   //initialize an empty array to accept data from the api
@@ -41,7 +41,7 @@ const HomePage = () => {
   return (
     <>
      
-      <Container people={people} />
+      <HomeContainer people={people} />
     </>
   );
 };
