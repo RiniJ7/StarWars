@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "./NavBar";
+
 import Container from "./Container";
 
 const HomePage = () => {
@@ -40,7 +40,6 @@ const HomePage = () => {
 
   return (
     <>
-      <NavBar />
      
       <Container people={people} />
     </>
