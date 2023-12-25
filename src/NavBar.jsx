@@ -1,11 +1,11 @@
 import React from 'react'
 import "./NavStyles.css"
-import "./assets/StarWarsIcon.png"
+import starWarsIcon from "./assets/StarWarsIcon.png"
 
 const NavBar = () => {
   return (
 <nav className="nav">
- <img className="site-title" src="./assets/StarWarsIcon.png" alt="star wars logo" />
+ <img className="site-title" src={starWarsIcon} alt="star wars logo" />
  
   <ul>
   <li className="active"><a href="/" >People</a></li>
