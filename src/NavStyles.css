@@ -11,6 +11,9 @@ body {
 }
 .site-title {
     font-size: 2rem;
+    max-height: 7rem;
+    max-width: 7 rem;
+    align-items: flex-end
 }
 
 .nav {
@@ -18,7 +21,7 @@ body {
     color: white;
     display: flex;
     justify-content:space-between;
-    align-items: stretch;
+    align-items: center;
     gap : 2rem;
     padding: 0 2 rem;
 }
