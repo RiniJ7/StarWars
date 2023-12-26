@@ -2,6 +2,7 @@ import React from 'react'
 import "./NavStyles.css"
 import starWarsIcon from "./assets/StarWarsIcon.png"
 
+
 const NavBar = () => {
   return (
 <nav className="nav">
@@ -9,11 +10,11 @@ const NavBar = () => {
  
   <ul>
   <li className="active"><a href="/" >People</a></li>
-  <li><a href="/" >Films</a></li>
-  <li><a href="/" >Planets</a></li>
-  <li><a href="/" >Species</a></li>
-  <li><a href="/" >Starships</a></li>
-  <li><a href="/" >Vehicles</a></li>
+  <li><a href="/films" >Films</a></li>
+  <li><a href="/planets" >Planets</a></li>
+  <li><a href="/species" >Species</a></li>
+  <li><a href="/starships" >Starships</a></li>
+  <li><a href="/vehicles" >Vehicles</a></li>
   </ul>
 </nav>
 
