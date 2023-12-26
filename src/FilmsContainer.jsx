@@ -1,33 +1,3 @@
-// import React from 'react'
-// import './App.css'
-
-// const FilmsContainer = (props) => {
-
-//     const filmsData = props.filmsData;
-//   return (
-//     <>
-//     <div>
-//         {filmsData.results ? (
-//             filmsData.results.map((f)=> 
-//                 {console.log(f);
-//         return (
-// <div  className="box" key={f.url}>
-// <h2>Title: {f.title}</h2>
-// <h2>Director: {f.director}</h2>
-// <h2>Opening_crawl: {f.opening_crawl}</h2>
-// </div>
-
-//         )})
-//         ) : (
-//             <p>Loading Films...</p>
-//         )}
-
-//     </div>
-//     </>
-//   )
-// }
-
-// export default FilmsContainer
 
 
 import React from 'react';

@@ -18,13 +18,6 @@ const NavBar = () => {
   </ul>
 </nav>
 
-// {/* <div className='header-box'>
-//             <div className='left-buttons'>
-//                 <Link to="/"><button className='all-cards-button' >All Cards</button></Link>
-//             </div>
-            
-        
-//         </div> */}
   )
 }
 
