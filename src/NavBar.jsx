@@ -14,7 +14,7 @@ const NavBar = () => {
   <li><a href="/all-people" >All People</a></li>
   <li><a href="/species" >Species</a></li>
   <li><a href="/starships" >Starships</a></li>
-  <li><a href="/vehicles" >Vehicles</a></li>
+  <li><a href="/tallest" >Tallest Character</a></li>
   </ul>
 </nav>
 
